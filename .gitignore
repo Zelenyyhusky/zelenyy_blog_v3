@@ -1,0 +1,4 @@
+.venv
+.vscode
+zelenyy_info/db.sqlite3
+.env
