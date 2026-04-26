@@ -2,3 +2,4 @@
 .vscode
 zelenyy_info/db.sqlite3
 .env
+zelenyy_info/zelenyy_info/__pycache__
