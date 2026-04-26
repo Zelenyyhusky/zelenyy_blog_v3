@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'zelenyy_info/style.css' %}">
+  </head>
+  <body>
+    
+    <h1>Hello welcome to my website!!!</h1>
+    <img src="{% static 'zelenyy_info/ZelNET.png' %}" class="zelnet">
+
+    <p>I love programming and networking!!! :3</p>
+    <p>My favourite random number is: {{ randnum }}</p>
+
+  </body>
+</html>
